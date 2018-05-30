@@ -1,0 +1,120 @@
+body {
+	font-family: 'Dancing Script', cursive; /* tipo fuente */
+}
+
+section{
+	margin-top: 8px;
+}
+
+/**************************** Header ****************************/
+/* logo */
+.logo-img{
+  width: 150px;
+  float:left;
+}
+/* imagenes sociales */
+.redes-sociales {
+  margin-top: 75px;
+	margin-bottom: 5px;
+	float: right;
+}
+.img-social {
+  width: 30px;
+}
+
+/**/
+.img-ico{
+	width: 25px;
+}
+.input-group{
+	margin-bottom: 20px;
+}
+
+
+/**/
+/* Menu Navegacion */
+.navbar {
+	background-color: rgba(8, 45, 94, 0.95);
+}
+.navbar a{
+  display: block;
+  color: white;
+  padding: 15px 18px;
+	text-decoration: none;
+}
+.navbar a:hover {
+  background-color: white;
+	text-decoration: none;
+  color: rgba(8, 45, 94, 0.95);
+	border-radius: 10px;
+	-moz-border-radius:10px; /* para mozila firefox */
+	-webkit-border-radius:10px; /* para safari */
+}
+/**************************** fin Header ****************************/
+
+/**************************** section ****************************/
+/* texto section */
+.img-message{
+	width: 100%;
+	max-width: 80PX;
+	min-width: 20PX;
+}
+/* imagen section */
+.img-section{
+	width: 100%;
+}
+/**************************** fin section ****************************/
+
+/*[class*="col-"] {
+    border: 1px solid black;
+}
+[class*="row"] {
+    border: 1px solid red;
+}*/
+
+/**************************** Para Comentario ****************************/
+.col-2{width: 10%;}
+.col-10{width: 90%;}
+.col-10 textarea{
+	width: 100%;
+}
+/**************************** fin comentario ****************************/
+
+/**************************** Busqueda ****************************/
+#milista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#milista li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: white; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#milista li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+@media all and (max-width: 767px) {
+
+.logo-img{
+	  float:none;
+	}
+
+.redes-sociales {
+	  margin-top: 0px;
+		float: none;
+	}
+
+.section-buscador{
+		display: none;
+	}
+}

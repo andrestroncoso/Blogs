@@ -1,0 +1,96 @@
+/* Fondo Imagen */
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  background: url(../img/fondo1.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+div{
+  /*border: 1px solid black;
+  padding: 2px;/**/
+}
+
+/* link historial */
+li a{
+  color: #FFCDD2;
+}
+li a:hover{
+  color: #FFCDD2;
+}
+/* fin historial */
+
+.line-bottom{
+  border-bottom: 1px solid gray;
+}
+.line-rigth{
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+
+.espaciocontenido{
+  margin-top: 10px;
+}
+
+.rowcoment{
+  border: 1px solid black;
+  border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  margin: 5px auto;
+}
+
+.img-post{
+  width: 60px;
+}
+
+.spacio{
+  padding: 10px 10px;/**/
+}
+
+/* Menu */
+.button.hollow {
+  border: 1px solid #FFCDD2;
+  color: #FFCDD2; }
+.button.hollow:hover, .button.hollow:focus {
+  border-color: #E91E63;
+  color: #E91E63; }
+/* fin Menu */
+
+/* Menu */
+.button.tiny {
+  border: 1px solid #E91E63;*/
+  color: #E91E63;
+  background: #E91E63; }
+.button.tiny:hover, .button.tiny:focus {
+  border-color: #E91E63;}
+/* fin Menu */
+
+/* div general transparente */
+.div-transp{
+	background-color: rgba(52, 73, 94, 0.9)
+}
+
+/* columnas */
+.col-iz{
+  margin-bottom: 7px;/**/
+	background-color: rgb(248, 249, 249, 0.5);
+	color: #FFCDD2; /* color del font */
+	border-radius: 5px; /**/
+	-moz-border-radius: 5px; /* para mozila firefox */
+	-webkit-border-radius: 5px; /* para safari */
+}
+
+.col-de{
+  color: black;
+}
+
+.col-recetas{
+  margin-bottom: 7px;/**/
+  background-color: rgb(255, 205, 210, 0.8);
+  border-radius: 5px;/**/
+	-moz-border-radius: 5px; /* para mozila firefox */
+	-webkit-border-radius: 5px; /* para safari */
+}

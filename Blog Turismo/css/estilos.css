@@ -1,0 +1,48 @@
+body{
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* logo */
+.logo-img{
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;/**/
+}
+
+.log-social{
+  width: 40px;
+}
+
+.img-gal{
+  width: 100%;
+  max-height: 700px;
+}
+
+.img-description{
+  width: 100%;
+  max-width: 150px;
+}
+.img-autor{
+  width: 100%;
+  max-width: 150px;
+}
+
+.fontsize-12{
+  font-size: 12px;
+}
+
+/*[class*="col"] {
+    border: 1px solid black;
+}
+[class*="row"] {
+    border: 1px solid red;
+}/**/
+
+.container {
+  width: 100%;
+  max-width:initial;
+}

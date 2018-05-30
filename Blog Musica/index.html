@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+
+    <!-- Modo online de uso -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- -->
+
+    <title>Blog de Música</title>
+  </head>
+  <body>
+    <script>
+    $(document).ready(function(){
+      $("#mibuscador").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#milista li").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+
+    <!-- Encabezado -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- logo -->
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center">
+            <img class="logo-img" src="img/logo.png"/>
+          </div>
+          <!-- -->
+          <!-- ico redes sociales -->
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center">
+            <div class="redes-sociales">
+              <a href="https://www.youtube.com/"><img class="img-rounded img-social" src="img/youtube-icon.png"/></a>
+              <a href="https://www.facebook.com/"><img class="img-rounded img-social" src="img/facebook-icon.png"/></a>
+              <a href="https://www.instagram.com/"><img class="img-rounded img-social" src="img/instagram-icon.png"/></a>
+              <a href="https://www.pinterest.cl/"><img class="img-rounded img-social" src="img/pinterest-icon.png"/></a>
+              <a href="https://twitter.com/"><img class="img-rounded img-social" src="img/twitter-icon.png"/></a>
+            </div>
+          </div>
+          <!-- -->
+        </div>
+      </div>
+    </header>
+    <!-- -->
+    <!-- barra de navegacion -->
+    <nav>
+      <div class="row">
+        <div class="navbar container-fluid">
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Inicio</a></div>
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Historia</a></div>
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Grupos</a></div>
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Discos</a></div>
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Cociertos</a></div>
+          <div class="col-xs-12 col-sm-12 col-md col-lg text-center"><a href="#">Contacto</a></div>
+        </div>
+      </div>
+    </nav>
+    <!-- -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md col-lg">
+
+          <!-- contenido 1 -->
+          <div class="row align-items-center">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+              <p class="lead"><strong>NIRVANA</strong> fue una banda de grunge estadounidense procedente de Aberdeen, Washington, Estados Unidos integrada por el vocalista y guitarrista <mark>Kurt Cobain</mark> y el bajista <mark>Krist Novoselic</mark> en 1987. Desde su formación, Nirvana pasó a través de una serie de frecuentes cambios de baterista hasta que en 1990 se les unió definitivamente el baterista <mark>Dave Grohl</mark>. Nirvana actualmente es considerada como una de las bandas más importantes e influyentes de la era moderna.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <img class="img-section" src="img/nirvana.svg"/>
+            </div>
+          </div>
+          <!-- fila contenido 1 -->
+
+          <!-- fila comentario -->
+          <div class="row align-items-center form-group">
+            <div class="col-2 align-items-center">
+              <img class="img-message" src="img/message.svg"/>
+            </div>
+
+            <div class="col-10">
+              <textarea class="" name="Comentario" placeholder="Comentario" rows="5"></textarea>
+            </div>
+          </div>
+          <!-- fin comentario -->
+
+          <!-- contenido 2 -->
+          <div class="row align-items-center">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+              <p class="lead"><strong>AC/DC</strong> es un grupo de hard rock australiano formado en 1973 en Sídney, Australia, por los hermanos de origen escocés <mark>Malcolm</mark> y<mark>Angus Young</mark>.Sus álbumes se han vendido en numerosos países, en un total estimado de 200 millones de copias,​ embarcándose en giras multitudinarias por todo el mundo, y sus éxitos han musicalizado varias producciones cinematográficas sobresalientes.
+              </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <img class="img-section" src="img/acdc.svg"/>
+            </div>
+          </div>
+          <!-- fin contenido 2 -->
+
+          <!-- fila comentario -->
+          <div class="row align-items-center  form-group">
+            <div class="col-2 align-items-center">
+              <img class="img-message" src="img/message.svg"/>
+            </div>
+
+            <div class="col-10">
+              <textarea class="" name="Comentario" placeholder="Comentario" rows="5"></textarea>
+            </div>
+          </div>
+          <!-- fin comentario -->
+
+        </div>
+
+        <div class="col-md-3 col-lg-3 section-buscador">
+          <div class="container">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"> <img class="img-ico" src="img/buscar-ico.png" alt=""> </span>
+              </div>
+              <input id="mibuscador" type="text" class="form-control" placeholder="Buscar tema..." required>
+            </div>
+
+            <ul id="milista">
+              <li><a href="#">Come As You Are</a></li>
+              <li><a href="#">Rape me</a></li>
+              <li><a href="#">All Apologies</a></li>
+              <li><a href="#">Polly</a></li>
+              <li><a href="#">Dive</a></li>
+              <li><a href="#">All Screwed Up</a></li>
+              <li><a href="#">Anything Goes</a></li>
+              <li><a href="#">Back in Business</a></li>
+              <li><a href="#">Bad Boy Boogie</a></li>
+              <li><a href="#">Badlands</a></li>
+              <li><a href="#">Baptism by Fire</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </body>
+</html>
